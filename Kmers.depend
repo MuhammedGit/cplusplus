@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1480959600 source:/home/muho/Desktop/Kmers/kmers.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<algorithm>
+	<unordered_map>
+	<vector>
+	<sparsehash/sparse_hash_map>
+
