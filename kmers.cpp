@@ -139,19 +139,11 @@ int main(int argc, char *argv[] )
 	}
 	 file.close();
 	 std::cout<<"Top 25 K-Mers"<<std::endl;
-	 if(!useVector){
 		for (int i = 0; i < topKmersVector.size() -1 ; i++)
 		{
 			kMerStruct topKmers = topKmersVector.at(i);
 			std::cout << topKmers.kmer << ": " << topKmers.count << std::endl;
 		}
-	 }else{
-
-		 for (int i = 0; i < topKmers ; i++)
-		{
-			kMerStruct topKmers = topKmersVector2.at(i);
-			std::cout << topKmers.kmer << ": " << topKmers.count << std::endl;
-		}
-	 }
+	
 	return 0;
 }
